@@ -18,8 +18,8 @@ export async function generateMetadata({ params }) {
   if (!chapter) return { title: 'Chapter Not Found' };
 
   return {
-    title: `${chapter.number} · ${chapter.title} | Blackwood Protocol Whitepaper`,
-    description: `Read chapter ${chapter.number}: ${chapter.title} of the Blackwood Protocol Technical Whitepaper. Autonomous execution for tokenized equities.`,
+    title: `${chapter.number} · ${chapter.title} | AgentRox Protocol Whitepaper`,
+    description: `Read chapter ${chapter.number}: ${chapter.title} of the AgentRox Protocol Whitepaper. A privacy-first execution layer for tokenized stocks and crypto.`,
   };
 }
 

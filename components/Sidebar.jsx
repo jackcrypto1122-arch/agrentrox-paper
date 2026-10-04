@@ -5,24 +5,24 @@ import { usePathname } from 'next/navigation';
 
 const CHAPTER_GROUPS = [
   {
-    category: 'INTRODUCTION',
-    slugs: ['executive-summary', 'shift-to-agentic-markets'],
+    category: 'OVERVIEW',
+    slugs: ['introduction', 'abstract'],
   },
   {
-    category: 'SYSTEM ARCHITECTURE',
-    slugs: ['blackwood-protocol', 'system-architecture', 'market-intelligence-layer'],
+    category: 'PRIVATE TRADING',
+    slugs: ['private-swaps', 'tokenized-stock-swaps'],
   },
   {
-    category: 'AGENTS & RISK',
-    slugs: ['autonomous-agent-network', 'risk-and-execution-architecture', 'robinhood-chain'],
+    category: 'AGENTIC SYSTEM',
+    slugs: ['private-agentic-trading', 'agentic-strategies'],
   },
   {
-    category: 'OPERATIONS & ROADMAP',
-    slugs: ['capital-architecture', 'security-reliability', 'development-roadmap'],
+    category: 'ARCHITECTURE & SECURITY',
+    slugs: ['architecture-overview', 'security-privacy-model'],
   },
   {
-    category: 'APPENDIX',
-    slugs: ['risks-and-limitations', 'conclusion', 'references-and-terminology'],
+    category: 'EXECUTION & ROADMAP',
+    slugs: ['use-cases', 'roadmap', 'conclusion'],
   },
 ];
 
@@ -56,7 +56,7 @@ export default function Sidebar({ chapters = [], isOpen, onClose }) {
                     {groupChapters.map((ch) => {
                       const isActive =
                         pathname === `/chapter/${ch.slug}` ||
-                        (pathname === '/' && ch.slug === 'executive-summary');
+                        (pathname === '/' && ch.slug === 'introduction');
 
                       return (
                         <li key={ch.slug} className="sidebar-item">

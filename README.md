@@ -1,6 +1,6 @@
-# Blackwood Protocol — Technical Whitepaper
+# AgentRox Protocol — Technical Whitepaper
 
-The official GitBook-style technical whitepaper web application for Blackwood Protocol, built with Next.js (App Router) and optimized for deployment on [Vercel](https://vercel.com).
+The official GitBook-style technical whitepaper web application for AgentRox Protocol, built with Next.js (App Router) and optimized for deployment on [Vercel](https://vercel.com).
 
 ---
 
@@ -22,20 +22,17 @@ npx vercel
 
 All chapters are stored as standard Markdown files inside the [`content/`](./content/) directory:
 
-- [`content/01-executive-summary.md`](./content/01-executive-summary.md)
-- [`content/02-shift-to-agentic-markets.md`](./content/02-shift-to-agentic-markets.md)
-- [`content/03-blackwood-protocol.md`](./content/03-blackwood-protocol.md)
-- [`content/04-system-architecture.md`](./content/04-system-architecture.md)
-- [`content/05-market-intelligence-layer.md`](./content/05-market-intelligence-layer.md)
-- [`content/06-autonomous-agent-network.md`](./content/06-autonomous-agent-network.md)
-- [`content/07-risk-and-execution-architecture.md`](./content/07-risk-and-execution-architecture.md)
-- [`content/08-robinhood-chain.md`](./content/08-robinhood-chain.md)
-- [`content/09-capital-architecture.md`](./content/09-capital-architecture.md)
-- [`content/10-security-reliability.md`](./content/10-security-reliability.md)
-- [`content/11-development-roadmap.md`](./content/11-development-roadmap.md)
-- [`content/12-risks-and-limitations.md`](./content/12-risks-and-limitations.md)
-- [`content/13-conclusion.md`](./content/13-conclusion.md)
-- [`content/14-references-and-terminology.md`](./content/14-references-and-terminology.md)
+- [`content/01-introduction.md`](./content/01-introduction.md)
+- [`content/02-abstract.md`](./content/02-abstract.md)
+- [`content/03-private-swaps.md`](./content/03-private-swaps.md)
+- [`content/04-tokenized-stock-swaps.md`](./content/04-tokenized-stock-swaps.md)
+- [`content/05-private-agentic-trading.md`](./content/05-private-agentic-trading.md)
+- [`content/06-agentic-strategies.md`](./content/06-agentic-strategies.md)
+- [`content/07-architecture-overview.md`](./content/07-architecture-overview.md)
+- [`content/08-security-privacy-model.md`](./content/08-security-privacy-model.md)
+- [`content/09-use-cases.md`](./content/09-use-cases.md)
+- [`content/10-roadmap.md`](./content/10-roadmap.md)
+- [`content/11-conclusion.md`](./content/11-conclusion.md)
 
 Simply open any file in `content/`, edit the markdown, save, and your changes will immediately update.
 

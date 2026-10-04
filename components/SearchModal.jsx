@@ -107,7 +107,7 @@ export default function SearchModal({ isOpen, onClose }) {
             ref={inputRef}
             type="text"
             className="search-modal-input"
-            placeholder="Search all 14 chapters, agents, formulas..."
+            placeholder="Search whitepaper, private swaps, agents..."
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
@@ -134,7 +134,7 @@ export default function SearchModal({ isOpen, onClose }) {
             <div className="search-modal-hints">
               <div className="hint-label">Quick Suggestions:</div>
               <div className="hint-tags">
-                {['Mean Reversion', 'Risk Engine', 'Adaptive Liquidity', 'Robinhood Chain', 'Multiplier', 'Circuit Breakers'].map((term) => (
+                {['Private Swaps', 'Tokenized Stocks', 'Grid Trading', 'Scalping', 'Robinhood Chain', 'Roadmap'].map((term) => (
                   <button
                     key={term}
                     type="button"

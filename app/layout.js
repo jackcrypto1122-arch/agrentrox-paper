@@ -11,10 +11,10 @@ const manrope = Manrope({
 });
 
 export const metadata = {
-  title: 'Blackwood Protocol · Technical Whitepaper',
-  description: 'The Agentic Execution Layer for Tokenized Equities on Robinhood Chain.',
-  keywords: ['Blackwood Protocol', 'Whitepaper', 'Tokenized Equities', 'Robinhood Chain', 'Autonomous Agents', 'DEX Arbitrage', 'DeFi'],
-  authors: [{ name: 'Blackwood Protocol Team' }],
+  title: 'AgentRox Protocol · Technical Whitepaper',
+  description: 'A privacy-first execution layer for tokenized stocks and crypto on Robinhood Chain.',
+  keywords: ['AgentRox', 'AgentRox Protocol', 'Whitepaper', 'Tokenized Equities', 'Private Swaps', 'Robinhood Chain', 'Autonomous Agents', 'DeFi'],
+  authors: [{ name: 'AgentRox Protocol Team' }],
   icons: {
     icon: '/favicon.ico',
   },

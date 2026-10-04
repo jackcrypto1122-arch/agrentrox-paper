@@ -29,7 +29,7 @@ export default function Header({ onOpenSearch }) {
               <path d="M7 16L12 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
             </svg>
             <div className="brand-text-group">
-              <span className="brand-title">BLACKWOOD</span>
+              <span className="brand-title">AGENTROX</span>
               <span className="brand-badge">PROTOCOL</span>
             </div>
           </Link>
@@ -37,19 +37,19 @@ export default function Header({ onOpenSearch }) {
           <span className="header-section-label">Whitepaper</span>
         </div>
 
-        {/* Center / Navigation Links matching Framer site */}
+        {/* Center / Navigation Links */}
         <nav className="header-nav">
-          <a href="https://empathetic-view-679067.framer.app/#agents" target="_blank" rel="noopener noreferrer" className="nav-link">
-            Agents
-          </a>
-          <a href="https://empathetic-view-679067.framer.app/#strategies" target="_blank" rel="noopener noreferrer" className="nav-link">
-            Strategies
-          </a>
-          <a href="https://empathetic-view-679067.framer.app/#roadmap" target="_blank" rel="noopener noreferrer" className="nav-link">
-            Roadmap
-          </a>
-          <Link href="/chapter/executive-summary" className={`nav-link ${pathname.startsWith('/chapter') || pathname === '/' ? 'nav-link-active' : ''}`}>
+          <Link href="/chapter/introduction" className={`nav-link ${pathname.startsWith('/chapter') || pathname === '/' ? 'nav-link-active' : ''}`}>
             Whitepaper
+          </Link>
+          <Link href="/chapter/private-swaps" className="nav-link">
+            Private Swaps
+          </Link>
+          <Link href="/chapter/agentic-strategies" className="nav-link">
+            Strategies
+          </Link>
+          <Link href="/chapter/roadmap" className="nav-link">
+            Roadmap
           </Link>
         </nav>
 
